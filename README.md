@@ -1,29 +1,17 @@
-# learn-vue-function-api
+# vue-function-api体験
 
-## Project setup
-```
-yarn install
-```
+## TL;DR
+だいたいcustom hooksだ  
+viewとlogicの分離がすごい簡単  
+さよならrender props、scoped slots、HoC！  
+  
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## 完走した感想  
+書き方の癖はあるけど、触ってみると
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+書き方の変更自体は目的ではなく、viewとlogicを分離しやすく、よりvue向きにcustom hooksを実現しようとした結果あの形に落ち着いたのだと思います。
 
-### Run your tests
-```
-yarn run test
-```
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 参考資料
+https://github.com/vuejs/vue-function-api#readme  
+https://bezkoder.com/vue-function-api-example/

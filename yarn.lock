@@ -7587,7 +7587,7 @@ tryer@^1.0.1:
   resolved "https://registry.npm.taobao.org/tryer/download/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha1-8shUBoALmw90yfdGW4HqrSQSUvg=
 
-tslib@^1.9.0:
+tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha1-w8GflZc/sKYpc/sJ2Q2WHuQ+XIo=
@@ -7871,6 +7871,13 @@ vue-eslint-parser@^5.0.0:
     espree "^4.1.0"
     esquery "^1.0.1"
     lodash "^4.17.11"
+
+vue-function-api@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/vue-function-api/-/vue-function-api-2.1.1.tgz#754915018375deaca16eb2ee00be9d99680e22ae"
+  integrity sha512-NZAaPRv4xTCiwy6tArMo+TOk54J2gzxGUYfztIj9qHF3uMxUkyh8G4J+HZ/25V9FFaL1kaPMepRsUHm5EXur5w==
+  dependencies:
+    tslib "^1.9.3"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
