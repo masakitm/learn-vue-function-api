@@ -2,15 +2,13 @@
 
 ## TL;DR
 だいたいcustom hooksだ  
-viewとlogicの分離がすごい簡単  
-さよならrender props、scoped slots、HoC！  
-  
+vueとlogicの分離がすごい簡単  
+さよならrender props、scoped slots、HoC、function as children！ 
 
-## 完走した感想  
-書き方の癖はあるけど、触ってみると
-
-書き方の変更自体は目的ではなく、viewとlogicを分離しやすく、よりvue向きにcustom hooksを実現しようとした結果あの形に落ち着いたのだと思います。
-
+## 完走した感想
+意外にとっつきやすく、scoped slotsにbreaking changeが入ってショックだった自分には嬉しいAPIでした。  
+現時点で特殊な表現も少なく可読性も担保されているように感じます。  
+設計はかなり変わって来そうですが、vue3.0が楽しみです。
 
 ### 参考資料
 https://github.com/vuejs/vue-function-api#readme  
